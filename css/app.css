@@ -34,26 +34,27 @@
 	
 }
 
-img{
+#profilepic{
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 	object-fit: cover;
 	margin-bottom: 25px;
-	transition: transform .5s
-
+	transition: transform .5s;
+	border: 5px solid #2481b3; 
 }
 
 
-img:hover{
+#profilepic:hover{
 	transform: scale(1.05)
 	
 }
 
-#profilepic{
-	 border: 5px solid #2481b3; 
-	 
-} 
+#logo{
+	height: 50px;
+	width: auto;
+
+}
 
 .profileInfo h2{
 	color: beige;
