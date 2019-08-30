@@ -51,9 +51,15 @@
 }
 
 #logo{
-	height: 50px;
+	height: 40px;
 	width: auto;
+	transition-duration: 0.8s; 
+}
 
+#logo:hover{
+	height: 40px;
+	width: auto;
+	transform:rotate(360deg);   
 }
 
 .profileInfo h2{
