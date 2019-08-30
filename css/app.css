@@ -13,6 +13,7 @@
 	justify-content: center;
 	text-align: center;
 	color: black;
+	
 }
 
 .profile{
@@ -22,11 +23,13 @@
 	padding: 30px 0;
 	font-family: 'Oswald', sans-serif;
 	transition: transform .5s;
-	border-radius: 10%
+	border-radius: 10%;
+	border: 5px solid #2481b3
 	
 }
 
 .profile:hover{
+	
 	transform: scale(1.05)
 	
 }
@@ -36,30 +39,36 @@ img{
 	width: 200px;
 	border-radius: 50%;
 	object-fit: cover;
-	margin-bottom: 20px;
-	border: 15px solid beige;
-	transition: transform .5s;
-	
+	margin-bottom: 25px;
+	transition: transform .5s
+
 }
+
 
 img:hover{
 	transform: scale(1.05)
 	
 }
 
+#profilepic{
+	 border: 5px solid #2481b3; 
+	 
+} 
 
 .profileInfo h2{
 	color: beige;
 	font-size:  2.5em;
 	font-weight: 550;
-	margin-bottom: 7px;
+	margin-bottom: 15px;
+	
 }
 
 .profileInfo p{
 	color: beige;
 	font-size:  1.3em;
 	font-weight: 500;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	font-family: 'Avenir', sans-serif;
 }
 
 i{
@@ -72,6 +81,12 @@ i{
 }
 
 i:hover{
-	color: maroon;
+	color: #e38202;
 	opacity: 1;
+}
+
+.seperator {
+    border-bottom: 5px solid #2481b3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
